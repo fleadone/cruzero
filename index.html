@@ -1,0 +1,1213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cruzeo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <!--build:css css/styles.min.css-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css?v1" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css?v1">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <!--endbuild-->
+
+  <!--build:js js/main.min.js -->
+  <!-- Latest compiled and minified JavaScript -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js?v1"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js?v1" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/lib/jquery.paroller.min.js?v1"></script>
+  <script src="js/main.js?v1"></script>
+  <!-- endbuild -->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js?v1"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="home-hero" id="top">
+    <div class="overlay"></div>
+    <nav class="navbar" id="nav">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" id="burger" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <a class="navbar-brand go-to-link" href="#top">
+            <img class='white' src="./images/logo-header.svg?v1" alt="logo"/>
+            <img class='color' src="./images/logo-header-color.svg?v1" alt="logo"/>
+          </a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#team" class="go-to-link">Team</a></li>
+            <li><a href="#roadmap" class="go-to-link">Roadmap</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#app" class="go-to-link">Application</a></li>
+            <li><a href="#">Whitepaper</a></li>
+            <div class="second-nav-right nav navbar-nav navbar-right">
+              <li><a href="./presale.html" class="button">PRESALE</a></li>
+              <div class="dropdown custom-selector">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="./images/flags/us-flag.png?v1" />
+                  <span class="caret"></span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <span class="dropdown-item"><img src="./images/flags/us-flag.png?v1" /></span>
+                  <span class="dropdown-item"><img src="./images/flags/us-flag.png?v1" /></span>
+                  <span class="dropdown-item"><img src="./images/flags/us-flag.png?v1" /></span>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container hero">
+      <div class="row">
+        <div class="col-md-6 hero-data-left">
+          <img src="./images/icons/lines.svg?v1" alt="" />
+          <h2>Cruzeo</h2>
+          <p>Is the world's first decentralized 
+            ride-hailing platform powered 
+            by the <img src="./images/icons/neo.svg?v1" alt=""/> NEO blockchain.
+          </p>
+          <div class="input-group subscribe">
+            <input type="text" class="form-control" placeholder="Your email">
+            <div class="input-group-append">
+              <button class="button button-color" type="button">Subscribe</button>
+            </div>
+          </div>
+          <span>— Get the latest updates and announcements.</span>
+        </div>
+        <div class="col-md-5 col-md-offset-1 text-center phone-block">
+          <img class="phone my-paroller" src="./images/iphone-01.png?v1" alt="" id="phone-first" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="vertical"/>
+        </div>
+      </div>
+      <div class="arrow">
+        <a href="#down" class="go-to-link"><img src="./images/icons/arrow.svg?v1" alt="arrow" /></a>
+      </div>
+    </div>
+  </div>
+
+  <section class="grey text-center" id="down">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center aims">
+          <div class="arrows-and-dots">
+            <img src="./images/icons/arrow-green.svg?v1" class="arrow-green my-paroller" alt=""/>
+            <img src="./images/icons/arrow-blue.svg?v1" class="arrow-blue my-paroller" alt=""/>
+            <img src="./images/icons/point-green.svg?v1" class="point-green my-paroller" alt=""/>
+            <img src="./images/icons/point-blue.svg?v1" class="point-blue my-paroller" alt=""/>
+          </div>
+          <div class="pulse-container">
+            <div class="pulse-box">
+              <svg class="pulse-svg" width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <circle class="circle first-circle" stroke="#4c5864" stroke-width="0.4" cx="48" cy="48" r="48"></circle>
+                <circle class="circle second-circle" stroke="#4c5864" stroke-width="0.4" cx="48" cy="48" r="48"></circle>
+                <circle class="circle third-circle" stroke="#4c5864" stroke-width="0.4" cx="48" cy="48" r="48"></circle>
+                <circle class="circle circle-bg" fill="#ffffff" cx="48" cy="48" r="48"></circle>
+                <image x="34" y="28" xlink:href="./images/logo-color.svg?v1" />
+              </svg>
+              <div class="mobile-round">
+                <img src="./images/logo-color.svg?v1" alt="" />
+              </div>
+              <p class="big-text">
+                Cruzeo aims to revolutionize the ride-hailing industry<br/>
+                by implementing a zero-percent commission platform — a platform 
+                where users come together to create and share <br/>
+                value efficiently and equitably.
+              </p>
+              <div class="buttons">
+                <a href="#" class="button button-white">WHITEPAPER</a>
+                <a href="./presale.html" class="button button-color">Presale</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="proposition">
+    <div class="patterns">
+      <img class="pattern-top" src="./images/pattern-top.svg?v1" alt=""/>
+      <img class="pattern-bot" src="./images/pattern-bot.svg?v1" alt=""/>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3 section-head">
+              <h2>Value Proposition</h2>
+              <p>
+                Cruzeo aims to revolutionize the ride-hailing 
+                industry by implementing a zero-percent</p>
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="row items-row height_1">
+            <div class="col-md-6 col-md-push-6 pic">
+              <div class="round-pic">
+                <div class="show_animete_1">
+                  <div class="container_1">
+                      <div class="fraim1-1"></div>
+                      <div class="fraim1-2"></div>
+                      <div class="fraim1-3"></div>
+                      <div class="fraim1-4"></div>
+                      <div class="fraim1-5"></div>
+                      <div class="fraim1-6"></div>
+                      <div class="fraim1-7"></div>
+                      <div class="fraim1-8"></div>
+                      <div class="fraim1-9"></div>
+                      <div class="fraim1-10"></div>
+                      <div class="fraim1-11"></div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            <div class="col-md-6 col-md-pull-6 text">
+              <div>
+                <span class="title">0% Commission</span>
+                <p>
+                  All value created by users gets distributed amongst 
+                  the network, drivers benefit from vastly increased 
+                  earnings, while riders enjoy significantly 
+                  cheaper rides.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="row items-row height_1">
+            <div class="col-md-6 pic">
+              <div class="round-pic big-animation">
+                <div class="show_animete_2">
+                  <div class="container_2">
+                      <div class="fraim2-1"></div>
+                      <div class="fraim2-2"></div>
+                      <div class="fraim2-3"></div>
+                      <div class="fraim2-4"></div>
+                      <div class="fraim2-5"></div>
+                      <div class="fraim2-6"></div>
+                      <div class="fraim2-7"></div>
+                      <div class="fraim2-8"></div>
+                      <div class="fraim2-9"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 text">
+              <div>
+                <span class="title">Data Security</span>
+                <p>
+                  All value created by users gets distributed amongst 
+                  the network, drivers benefit from vastly increased 
+                  earnings, while riders enjoy significantly 
+                  cheaper rides.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="row items-row height_1">
+            <div class="col-md-6 col-md-push-6 pic">
+              <div class="round-pic">
+                <div class="show_animete_3">
+                  <div class="container_3">
+                      <div class="fraim3-1"></div>
+                      <div class="fraim3-2"></div>
+                      <div class="fraim3-3"></div>
+                      <div class="fraim3-4"></div>
+                      <div class="fraim3-5"></div>
+                      <div class="fraim3-6"></div>
+                      <div class="fraim3-7"></div>
+                      <div class="fraim3-8"></div>
+                      <div class="fraim3-9"></div>
+                      <div class="fraim3-10"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-pull-6 text">
+              <div>
+                <span class="title">User Freedom</span>
+                <p>
+                  Drivers are free to decide how much to offer their 
+                  services for whilst riders are free to choose which 
+                  drivers they accept.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="row items-row height_1">
+            <div class="col-md-6 pic">
+              <div class="round-pic">
+                <div class="show_animete_4">
+                  <div class="container_4">
+                      <div class="fraim4-1"></div>
+                      <div class="fraim4-2"></div>
+                      <div class="fraim4-3"></div>
+                      <div class="fraim4-4"></div>
+                      <div class="fraim4-5"></div>
+                      <div class="fraim4-6"></div>
+                      <div class="fraim4-7"></div>
+                      <div class="fraim4-8"></div>
+                      <div class="fraim4-9"></div>
+                      <div class="fraim4-10"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 text">
+              <div>
+                <span class="title">Passive Income</span>
+                <p>
+                  Drivers are free to decide how much to offer their 
+                  services for whilst riders are free to choose which 
+                  drivers they accept.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+          <div class="row items-row height_1">
+            <div class="col-md-6 col-md-push-6 pic">
+              <div class="round-pic">
+                <div class="show_animete_5">
+                  <div class="container_5">
+                      <div class="fraim5-1"></div>
+                      <div class="fraim5-2"></div>
+                      <div class="fraim5-3"></div>
+                      <div class="fraim5-4"></div>
+                      <div class="fraim5-5"></div>
+                      <div class="fraim5-6"></div>
+                      <div class="fraim5-7"></div>
+                      <div class="fraim5-8"></div>
+                      <div class="fraim5-9"></div>
+                      <div class="fraim5-10"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-pull-6 text">
+              <div>
+                <span class="title">Government Synergy</span>
+                <p>
+                  Drivers are free to decide how much to offer their 
+                  services for whilst riders are free to choose which 
+                  drivers they accept.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Row -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="overview grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 overview-round">
+          <div class="round-pic">
+          </div>
+        </div>
+        <div class="col-md-5 col-md-offset-1">
+          <h2>Tech Component Overview </h2>
+          <p>
+            Cruzeo aims to revolutionize the ride-hailing 
+            industry by implementing a zero-percent 
+            commission platform
+          </p>
+          <ol class="list-numbers grey">
+            <li>
+              <span class="title">User Layer</span>
+              <span class="description">Application Access, Key Management, UUID</span>
+            </li>
+            <li>
+              <span class="title">Data Storage Layer</span>
+              <span class="description">
+                User Registration, Biometrics, Data Sharing Access 
+                Control, Smart Contract Definition, UUID, 
+                Attestation Store, Registry
+              </span>
+            </li>
+            <li>
+              <span class="title">Blockchain Layer</span>
+              <span class="description">
+                Smart Contract Execution, Transaction Store 
+                (Audit Trail),URI Store (Non-Blinding Data Share)
+              </span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="overview white">
+    <div class="patterns">
+      <img class="pattern-top" src="./images/pattern-top.svg?v1" />
+      <img class="pattern-bot" src="./images/pattern-bot.svg?v1" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-push-6 col-md-offset-1 overview-round">
+          <div class="round-pic">
+          </div>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <h2>
+            Digital Identity Inegration 
+            Overview
+          </h2>
+          <p>
+            Cruzeo aims to revolutionize the ride-hailing 
+            industry by implementing a zero-percent 
+            commission platform
+          </p>
+          <ol class="list-numbers">
+            <li>
+              <span class="description">
+                Cruzeo Login required leveraging 
+                ONT integration API
+              </span>
+            </li>
+            <li>
+              <span class="description">
+                Login API integration invoked
+              </span>
+            </li>
+            <li>
+              <span class="description">
+                Digital Identity Hash authentication 
+                check completed
+              </span>
+            </li>
+            <li>
+              <span class="description">
+                Login successful transaction  confirmed
+              </span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stack grey">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <h2>Technology Stack Overview </h2>
+          <p>
+            Cruzeo aims to revolutionize the ride-hailing industry by implementing 
+            a zero-percent commission platform
+          </p>
+        </div>
+        <div class="col-md-12">
+          <ul class="stack-overview">
+            <li>
+              <div class="round-wrapper">
+                <img class="tech_icon" src="images/user_icon.png" alt="">
+              </div>
+              <span class="name">USER</span>
+              <div class="hover-block">
+                <ul class="list">
+                  <li><span>Digital Identity Hash (ONT)</span></li>
+                  <li><span>Per Transaction Hash (NEO)</span></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="round-wrapper">
+                  <img class="tech_icon" src="images/block_icon.png" alt="">
+              </div>
+              <span class="name">BLOCKCHAIN</span>
+              <div class="hover-block">
+                <ul class="list">
+                  <li><span>Digital Identity Hash (ONT)</span></li>
+                  <li><span>Per Transaction Hash (NEO)</span></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <div class="round-wrapper">
+                  <img class="tech_icon" src="images/mob_icon.png" alt="">
+              </div>
+              <span class="name">MOBILE</span>
+              <div class="hover-block">
+                <ul class="list">
+                  <li><span>Digital Identity Hash (ONT)</span></li>
+                  <li><span>Per Transaction Hash (NEO)</span></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+                <div class="round-wrapper">
+                    <img class="tech_icon" src="images/auto_icon.png" alt="">
+                </div>
+                <span class="name">AUTO</span>
+                <div class="hover-block">
+                  <ul class="list">
+                    <li><span>Digital Identity Hash (ONT)</span></li>
+                    <li><span>Per Transaction Hash (NEO)</span></li>
+                  </ul>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="platform">
+    <div class="patterns">
+      <img class="pattern-top" src="./images/pattern-top.svg?v1" />
+      <img class="pattern-bot" src="./images/pattern-bot.svg?v1" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Ride Platform</h2>
+          <p>
+            Cruzeo aims to revolutionize 
+            the ride-hailing industry by 
+            implementing
+          </p>
+          <a href="./presale.html" class="button button-color">PRESALE</a>
+        </div>
+        <div class="col-md-4">
+          <div class="platform-item">
+            <div class="pic-wrapper animate-hover">
+              <img src="./images/icons-anim/1.png?v1" class="pic" />
+              <img src="./images/icons-anim/green.png?v1" class="floor" />
+              <img src="./images/icons-anim/green-shadow.png?v1" class="shadow" />
+            </div>
+            <span class="title">RideContract</span>
+            <p>
+              RideContracts are digitally enforcable 
+              agreements between drivers and riders. 
+              Once invoked, the funds are held in 
+              escrow until the trip is complete and 
+              the dispute window has ended.
+            </p>
+          </div>
+          <div class="platform-item">
+            <div class="pic-wrapper animate-hover">
+              <img src="./images/icons-anim/3.png?v1" class="pic" />
+              <img src="./images/icons-anim/blue.png?v1" class="floor" />
+              <img src="./images/icons-anim/blue-shadow.png?v1" class="shadow" />
+            </div>
+            <span class="title">Mobile Applications</span>
+            <p>
+              Driver and Rider native mobile apps
+              provide an interface to the platform
+              whilst abstracting the complexities 
+              from the end-user.
+            </p>
+          </div>
+          <div class="platform-item">
+            <div class="pic-wrapper animate-hover">
+              <img src="./images/icons-anim/4.png?v1" class="pic" />
+              <img src="./images/icons-anim/green.png" class="floor" />
+              <img src="./images/icons-anim/green-shadow.png?v1" class="shadow" />
+            </div>
+            <span class="title">Payment Protocol</span>
+            <p>
+              The multi-payment protocol enables 
+              users of the platform to seamlessly 
+              pay with and receive any fiat or crypt 
+              currency.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="platform-item">
+            <div class="pic-wrapper animate-hover">
+              <img src="./images/icons-anim/2.png?v1" class="pic" />
+              <img src="./images/icons-anim/blue.png?v1" class="floor" />
+              <img src="./images/icons-anim/blue-shadow.png?v1" class="shadow" />
+            </div>
+            <span class="title">Discovery Protocol</span>
+            <p>
+              Cruzeo uses a fast, secure & scalable 
+              off-chain driver matching engine 
+              by using distributed hash tables in 
+              an encrypted peer-to-peer 
+              communication network.
+            </p>
+          </div>
+          <div class="platform-item">
+            <div class="pic-wrapper animate-hover">
+              <img src="./images/icons-anim/5.png?v1" class="pic" />
+              <img src="./images/icons-anim/green.png" class="floor" />
+              <img src="./images/icons-anim/green-shadow.png?v1" class="shadow" />
+            </div>
+            <span class="title">Arbitratiom Model</span>
+            <p>
+              Disputes & arbitrations are handled 
+              in three different tiers: the automatic 
+              resolution protocol, a community 
+              consensus and an accountable 
+              authority.
+            </p>
+          </div>
+          <div class="platform-item">
+            <div class="pic-wrapper animate-hover">
+              <img src="./images/icons-anim/6.png?v1" class="pic" />
+              <img src="./images/icons-anim/blue.png?v1" class="floor" />
+              <img src="./images/icons-anim/blue-shadow.png?v1" class="shadow" />
+            </div>
+            <span class="title">Reputation Model</span>
+            <p>
+              We implement a reputation model 
+              to reward positive community ehaviour 
+              while systematically protecting users 
+              from unwanted actors.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="roadmap" id="roadmap">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Roadmap</h2>
+          <p>
+            Cruzeo aims to revolutionize the ride-hailing 
+            industry by implementing
+          </p>
+          <ul class="map" id="roadmap">
+            <li class="active active-small">
+              <div class="road-content">
+                <span class="data">Cruzeo conception</span>
+                <span class="date">Q3 2017</span>
+              </div>
+            </li>
+            <li class="active">
+              <div class="road-content active-content">
+                <span class="data">Platform Architecture Development</span>
+                <span class="date">Q1 2018</span>
+              </div>
+            </li>
+            <li>
+              <div class="road-content">
+                <span class="data">Product release V1</span>
+                <span class="date">Q4 2018</span>
+              </div>
+            </li>
+            <li>
+              <div class="road-content" >
+                <span class="data">Token-sale </span>
+                <span class="date">Q1 2019</span>
+              </div>
+            </li>
+            <li>
+              <div class="road-content">
+                <span class="data">Driver Test Pool</span>
+                <span class="date">Q2 2019</span>
+              </div>
+            </li>
+            <li>
+              <div class="road-content">
+                <span class="data">Full Version Release & Launch</span>
+                <span class="date">Q3 2019</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="chart-box grey" id="no-spy">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pieID pie"></div>
+        </div>
+        <div class="col-md-4 col-md-offset-2">
+          <h2>Tokenomics</h2>
+          <p>
+            With the RideOhe app, we put the power
+            of the blockchaih into the user's hahds.
+          </p>
+          <ul class="pieID legend">
+            <li>
+              <div class="round"></div>
+              <span>35</span><i>%</i>
+              <em>Public offering</em>
+            </li>
+            <li>
+              <div class="round"></div>
+              <span>25</span><i>%</i>
+              <em>Team + Advisors</em>
+            </li>
+            <li>
+              <div class="round"></div>
+              <span>15</span><i>%</i>
+              <em>Future Growth Reserve</em>
+            </li>
+            <li>
+              <div class="round"></div>
+              <span>13</span><i>%</i>
+              <em>Development</em>
+            </li>
+            <li>
+              <div class="round"></div>
+              <span>12</span><i>%</i>
+              <em>Bounty Referral</em>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="application" id="app">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="application-description">
+            <h2>Application</h2>
+            <p>
+              With the RideOhe app, we put the power
+              of the blockchaih into the user's hahds.
+            </p>
+            <ul class="list tech-components">
+              <li>
+                <span class="title">NEO network</span>
+                <span class="description">
+                  Provides a fast, highly-scalable and modern 
+                  blockchain infrastructure for building smart 
+                  economy applications.
+                </span>
+              </li>
+              <li>
+                <span class="title">Ontology framework</span>
+                <span class="description">
+                  Cruzeo establishes a distributed trust network 
+                  with the Ontology framework for driver digital 
+                  identity certification.
+                </span>
+              </li>
+            </ul>
+            <a href="#" targer="_blank" class="app-link"><img src="./images/app-store.png?v1" alt=""/></a>
+            <a href="#" targer="_blank" class="app-link"><img src="./images/google-play.png?v1" alt=""/></a>
+          </div>
+        </div>
+        
+        <div class="col-md-7 col-md-offset-1">
+            <div class="application-pics text-center">
+              <img class="phone my-paroller" src="./images/iphone-02.png?v1" alt="" data-paroller-factor="-0.08" data-paroller-type="foreground" data-paroller-direction="vertical"/>
+              <div class="big-round">
+                <img src="./images/photo/man-01.png?v1" class="woman my-paroller" alt="" data-paroller-factor="0.05" data-paroller-type="foreground" data-paroller-direction="vertical"/>
+                <img src="./images/photo/man-02.png?v1" class="man my-paroller" alt="" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="vertical"/>
+                <img src="./images/icons/arrow-green.svg?v1" class="arrow-green my-paroller" alt="" data-paroller-factor="0.05" data-paroller-type="foreground" data-paroller-direction="horizontal"/>
+                <img src="./images/icons/arrow-blue.svg?v1" class="arrow-blue my-paroller" alt="" data-paroller-factor="-0.05" data-paroller-type="foreground" data-paroller-direction="horizontal"/>
+                <img src="./images/photo/ontology.png?v1" class="ontology my-paroller" alt="" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="vertical"/>
+                <img src="./images/icons/neo.svg?v1" class="neo my-paroller" alt="" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="vertical"/>
+              </div>
+              <div class="mid-round">
+                <img src="./images/icons/point-blue.svg?v1" class="point-blue" alt=""/>
+                <img src="./images/icons/point-green.svg?v1" class="point-green" alt="" />
+              </div>
+              <div class="small-round"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team grey" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Team</h2>
+          <p>
+            Cruzeo aims to revolutionize the ride-hailing<br/>
+            industry by implementing
+          </p>
+        </div>
+      </div>
+      <div class="row grid">
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" alt="" />
+            </div>
+            <div class="member-data">
+              <span class="name">Rod Pienaar</span>
+              <span class="title">Financial Lead</span>
+              <span class="descr">
+                Risk Consultant at <b>KPMG</b> <br/><br/>
+                Equity Finance at <b>Deutsche Bank</b><br/><br/>
+                Executive Director at <b>UBS</b>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/doris.jpg?v1" alt=""/>
+            </div>
+            <div class="member-data">
+              <span class="name">Dr Doris Schiober Ph.D</span>
+              <span class="title">Technical Lead</span>
+              <span class="descr">
+                PhD Computer Science;<br/><br/>
+                Lecturer University of California Berkeley<br/><br/>
+                Founder & CEO Mooqita.
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" alt=""/>
+            </div>
+            <div class="member-data">
+              <span class="name">Dr Tao Feng Ph.D</span>
+              <span class="title">Technical</span>
+              <span class="descr">
+                PhD Computer Science<br/><br/>
+                Enterprise Architect at <br/> IBM Watson</span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" />
+            </div>
+            <div class="member-data">
+              <span class="name">Yuan Tian</span>
+              <span class="title">Technical</span>
+              <span class="descr">
+                MSc Computer Science, University of Oxford <br/><br/>
+                Developer at Goldman Sachs <br/><br/>
+                Developer at Morgan Stanley
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" />
+            </div>
+            <div class="member-data">
+              <span class="name">Fabrice Medine</span>
+              <span class="title">Operations</span>
+              <span class="descr">Senior Business Development <br/> at Uber</span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" />
+            </div>
+            <div class="member-data">
+              <span class="name">Carlo Mannino</span>
+              <span class="title">Technical</span>
+              <span class="descr">
+                SLLL at Harvard University; B.Sc <br/><br/>
+                Mathematics and Computer Science Engineering at MIT<br/><br/>
+                Software Engineer at Datto<br/><br/>
+                Sr. Software Engineer at JetSmarter</span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" />
+            </div>
+            <div class="member-data">
+              <span class="name">Abhi Bothra</span>
+              <span class="title">Financial</span>
+              <span class="descr">
+                MEng at Imperial College <br/> London<br/><br/>
+                M&A, Restructuring at Lazard
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" />
+            </div>
+            <div class="member-data">
+              <span class="name">Russell Hongyang-Jiang</span>
+              <span class="title">Operations</span>
+              <span class="descr">Strategy at DiDi Chuxing</span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" />
+            </div>
+            <div class="member-data">
+              <span class="name">Dr Andreas Krueger Ph.D</span>
+              <span class="title">Technical</span>
+              <span class="descr">
+                PhD Theoretical and <br/> Mathematical Physics - Complex<br/><br/>
+                Researcher at the Austrian <br/> Institute of Technology (AIT)<br/><br/>
+                Blockchain Engineer at Electron
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" />
+            </div>
+            <div class="member-data">
+              <span class="name">Karol Ussher</span>
+              <span class="title">Growth & Scaling Advisor</span>
+              <span class="descr">
+                MSc. Hi-Tech Entrepreneurship <br/> at Stanford University<br/><br/>
+                ISV Tech Solutions at Microsoft<br/><br/>
+                Head of Google Cloud Strategic <br/> Technology Partnerships EMEA at Google<br/><br/>
+                Head of Global ISV Success EMEA at Amazon Web Services
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" />
+            </div>
+            <div class="member-data">
+              <span class="name">Joao Ruffino</span>
+              <span class="title">Growth & Scaling Advisor</span>
+              <span class="descr">Head of EMEA Google Cloud Partner Engineering group at Google</span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+        <div class="col-md-3 col-xs-6">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="./images/team/rod.jpeg?v1" />
+            </div>
+            <div class="member-data">
+              <span class="name">Caley Nie</span>
+              <span class="title">Marketing Advisor</span>
+            </div>
+          </div>
+        </div>
+        <!-- Member -->
+      </div>
+    </div>
+  </section>
+
+  <section class="experience grey text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <span class="title">With Experience From</span>
+        </div>
+        <div class="experience-items">
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/uber.svg?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/didi.png?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/google.svg?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img class="amazon" src="./images/experience-items/ibm.png?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/jp-morgan.svg?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/kpmg.png?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/goldman.png?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/ubs.svg?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/harvard.png?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/oxford.png?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/mit.png?v1" alt='' />
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="experience-item">
+              <img src="./images/experience-items/ucb.png?v1" alt='' />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pre-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sign-up-presale text-center">
+            <div class="absolute-items">
+              <div class="arrows-and-dots">
+                <img src="./images/icons/arrow-green.svg?v1" class="arrow-green my-paroller" alt="" data-paroller-factor="-0.1" data-paroller-type="foreground" data-paroller-direction="vertical"/>
+                <img src="./images/icons/arrow-blue.svg?v1" class="arrow-blue my-paroller" alt="" data-paroller-factor="0.1" data-paroller-type="foreground" data-paroller-direction="vertical"/>
+              </div>
+            </div>
+            <div class="big-round">
+              <img src="./images/icons/point-blue.svg?v1" class="point-blue my-paroller" alt="" data-paroller-factor="-0.05" data-paroller-type="foreground" data-paroller-direction="horizontal"/>
+              <img src="./images/icons/point-green.svg?v1" class="point-green my-paroller" alt="" data-paroller-factor="0.05" data-paroller-type="foreground" data-paroller-direction="horizontal"/>
+            </div>
+            <div class="mid-round"></div>
+            <div class="small-round"></div>
+            <h2>Ready To Get Started?</h2>
+            <a href="./presale.html" class="button button-color">REGISTER FOR PRESALE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-home">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-xs-12 logo">
+          <img src="./images/logo-header.svg?v1" alt="logo" />
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <span class="title">Resources</span>
+          <ul>
+            <li><a href="#">Whitepaper</a></li>
+            <li><a href="#">Announcements</a></li>
+            <li><a href="#">GutHub</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <span class="title">Organisation</span>
+          <ul>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Press Kit</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <span class="title">Legal</span>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <span class="title">Social</span>
+          <ul class="social">
+            <li>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16">
+                  <path fill="#FFF" fill-rule="nonzero" d="M19 1.018l-.75 3.575c-.018.09-.04.177-.06.265l-.237 1.11c-.244 1.16-.49 2.322-.736 3.482-.093.41-.185.824-.279 1.235-.146.75-.292 1.499-.44 2.25l-.484 2.258c-.381.892-.932 1.044-1.719.46-1.055-.784-2.104-1.575-3.156-2.362l-.195-.135-.462.457-1.167 1.158c-.045.044-.095.1-.15.161-.032.034-.062.07-.096.105a.967.967 0 0 1-.145.131 2.801 2.801 0 0 0-.125.105c-.256.22-.686.59-1.355.59-.04 0-.08 0-.12-.002-.04.002-.082.004-.12.004-.261 0-1.136-.084-1.46-1.171-.15-.502-.313-1.014-.47-1.51l-.195-.612-.555-1.78-.421-1.357a1.055 1.055 0 0 1-.046-.368L.58 7.99c-.043-.014-.094-.023-.124-.052C.29 7.78.02 7.627 0 7.45c-.02-.175.172-.45.347-.556.393-.238.83-.41 1.257-.586.486-.203.981-.383 1.473-.574l6.56-2.536c1.061-.412 2.124-.82 3.184-1.235.423-.167.84-.35 1.26-.525.687-.249 1.376-.49 2.058-.749.412-.154.813-.334 1.22-.502.108-.03.217-.053.324-.09.727-.249 1.133-.024 1.287.72.013.065.02.134.029.2zM8.63 11.482c-.06.784-.117 1.568-.174 2.351l-.024.324c.045-.048.088-.097.134-.145l1.483-1.468-1.42-1.062zm3.886-6.905c-2.403 1.521-4.806 3.046-7.21 4.566-.049.03-.102.055-.156.08.314 1.01.63 2.02.943 3.03.224.712.457 1.421.67 2.136.087.296.239.454.559.398.089-1.208.174-2.416.265-3.625.01-.141.027-.285.044-.426-.136-.078-.076-.228-.03-.277l.25-.26.089-.083.123-.13c.2-.186.397-.375.596-.562a124.706 124.706 0 0 1 1.273-1.187c.798-.728 1.612-1.44 2.412-2.165 1.02-.925 2.037-1.854 3.047-2.79.074-.103.122-.236.187-.35-.181.024-.393-.006-.537.079-.85.508-1.687 1.037-2.525 1.566z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                  <path fill="#FFF" fill-rule="evenodd" d="M9.614 18v-6.97H7.27V8.312h2.345V6.309c0-2.324 1.42-3.59 3.494-3.59.994 0 1.848.074 2.096.107v2.43h-1.438c-1.128 0-1.346.536-1.346 1.322v1.735h2.69l-.35 2.716h-2.34V18H.994A.993.993 0 0 1 0 17.007V.993C0 .445.445 0 .993 0h16.014c.548 0 .993.445.993.993v16.014a.993.993 0 0 1-.993.993H9.614z"/>
+                </svg>              
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16">
+                  <path fill="#FFF" fill-rule="evenodd" d="M13.363.004V0h.938l.343.067c.228.044.436.102.622.173.186.07.367.154.541.248.174.095.332.192.474.29.141.097.267.2.38.309.11.11.282.138.517.085.234-.053.487-.127.757-.222s.538-.201.803-.32c.264-.118.425-.193.483-.225a6.95 6.95 0 0 0 .09-.053l.004-.006.018-.009.018-.008.018-.01.018-.008.003-.006.006-.003.005-.004.004-.005.018-.005.018-.004-.004.027-.005.026-.01.027-.008.027-.01.017-.008.018-.01.027a.61.61 0 0 0-.017.07c-.006.03-.063.149-.172.356a4.433 4.433 0 0 1-.405.63 3.116 3.116 0 0 1-.437.483c-.13.11-.216.187-.258.231a.772.772 0 0 1-.153.125l-.09.058-.018.01-.018.008-.004.005-.005.004-.006.003-.003.006-.018.009-.018.008-.004.006-.005.003-.006.004-.003.005-.004.006-.005.003-.006.004-.003.005h.09l.505-.107c.336-.07.658-.156.965-.257l.487-.16.054-.018.027-.008.018-.01.018-.008.018-.01.018-.008.036-.005L20 1.9v.036l-.009.003-.009.006-.004.005-.005.003-.005.004-.004.005-.004.006-.005.003-.005.004-.004.005-.004.005-.005.004-.01.018-.008.017-.006.004-.229.302c-.15.199-.231.3-.243.302-.012.003-.029.021-.05.053-.021.033-.148.165-.383.396-.234.23-.464.436-.689.616-.226.181-.34.404-.342.668-.004.263-.018.56-.042.891-.024.332-.069.69-.135 1.075s-.168.82-.307 1.305c-.138.485-.306.959-.505 1.42a11 11 0 0 1-.622 1.244 12.009 12.009 0 0 1-1.145 1.651 10.66 10.66 0 0 1-.707.76c-.286.28-.442.435-.469.462-.028.026-.145.123-.353.291-.207.17-.43.339-.668.508a7.732 7.732 0 0 1-.652.42c-.199.113-.438.242-.718.386-.28.146-.581.28-.906.405-.324.124-.667.24-1.028.346-.36.107-.709.19-1.046.249-.336.06-.718.11-1.145.151l-.64.062V16H5.717v-.009l-.153-.009a8.347 8.347 0 0 1-.253-.018 30.552 30.552 0 0 1-.748-.097c-.433-.06-.773-.119-1.02-.178-.246-.059-.612-.171-1.1-.337a10.799 10.799 0 0 1-1.25-.503 50.247 50.247 0 0 1-.648-.32 4.629 4.629 0 0 1-.293-.163L.09 14.27l-.003-.006-.006-.003-.005-.004-.004-.005-.018-.009-.018-.009-.004-.005-.005-.004-.005-.003-.004-.006-.004-.005-.005-.004H0v-.035l.018.003.018.006.081.009c.054.006.202.014.442.026a8.263 8.263 0 0 0 2.597-.293c.385-.1.738-.22 1.06-.358.321-.14.55-.244.686-.313.134-.067.34-.193.616-.376l.415-.276.004-.005.005-.004.006-.003.003-.005.004-.006.005-.003.006-.004.003-.005.018-.006.018-.003.004-.018.005-.018.006-.003.003-.005-.144-.01-.28-.017a2.749 2.749 0 0 1-.423-.08 4.11 4.11 0 0 1-.622-.213 4.823 4.823 0 0 1-.65-.338 3.193 3.193 0 0 1-.456-.324 7.85 7.85 0 0 1-.36-.363 3.6 3.6 0 0 1-.383-.485 4.334 4.334 0 0 1-.31-.573l-.15-.323-.009-.027-.009-.027-.005-.017-.004-.018.027.003.027.006.199.026c.132.018.34.024.622.018.282-.006.478-.018.586-.035a3.84 3.84 0 0 0 .198-.036l.036-.009.046-.009.045-.009.003-.005.006-.003.005-.004.004-.005-.036-.01-.036-.008-.037-.009-.036-.009-.036-.009a3.354 3.354 0 0 1-.126-.035 6.98 6.98 0 0 1-.487-.196 3.743 3.743 0 0 1-.631-.328 4.349 4.349 0 0 1-.447-.35 5.056 5.056 0 0 1-.464-.494 3.545 3.545 0 0 1-.45-.701 4.226 4.226 0 0 1-.298-.764 4.065 4.065 0 0 1-.13-.737l-.033-.372.019.003.018.005.018.01.018.008.018.01.018.008.28.124c.186.083.417.154.694.213.276.06.441.092.495.098l.082.009h.162l-.004-.005-.005-.004-.005-.004-.004-.005-.004-.005-.005-.004-.006-.003-.003-.006-.018-.009-.018-.008-.004-.006-.005-.003-.006-.004-.003-.005-.018-.009-.018-.009-.004-.005-.155-.114a2.35 2.35 0 0 1-.31-.29 10.493 10.493 0 0 1-.325-.372 2.878 2.878 0 0 1-.288-.418 5.024 5.024 0 0 1-.267-.564A3.963 3.963 0 0 1 .83 2.877 4.24 4.24 0 0 1 .848 2.3c.018-.16.054-.34.108-.542.054-.201.132-.414.234-.64l.154-.337.009-.026.009-.027.005-.003.004-.006.003-.005L1.38.71l.005.004.004.005.003.006.006.003.005.004.004.005.003.005.006.004.009.018.009.017.005.004.004.005.243.267c.163.177.355.375.577.594.223.22.346.333.37.341.024.01.054.037.09.082.036.044.156.149.36.314.205.166.473.359.803.578.331.219.698.435 1.1.648.403.213.836.405 1.299.577.463.172.787.284.974.337.186.054.505.122.956.205.45.082.79.136 1.019.16.228.023.384.037.468.04l.127.004-.004-.027-.005-.027-.036-.222a4.11 4.11 0 0 1-.036-.621c0-.266.02-.512.063-.737.042-.225.105-.453.189-.684.084-.23.167-.416.247-.556.082-.138.189-.296.321-.474.132-.177.304-.36.514-.55.21-.19.45-.358.721-.506.27-.148.52-.26.749-.338.228-.077.42-.127.577-.15.156-.024.234-.038.234-.041z"/>
+                </svg>                
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                  <path fill="#FFF" fill-rule="evenodd" d="M9 18A9 9 0 1 1 9 0a9 9 0 0 1 0 18zm6.002-9a1.317 1.317 0 0 0-2.223-.902 6.399 6.399 0 0 0-3.466-1.107l.584-2.808 1.926.405a.9.9 0 1 0 .119-.55l-2.206-.44a.279.279 0 0 0-.333.212v.004l-.665 3.123a6.447 6.447 0 0 0-3.51 1.108 1.312 1.312 0 1 0-1.445 2.152 2.924 2.924 0 0 0 0 .396c0 2.016 2.349 3.655 5.246 3.655 2.897 0 5.246-1.637 5.246-3.655a2.924 2.924 0 0 0 0-.396c.452-.226.736-.691.727-1.197zm-9 .902c0-.497.405-.902.902-.902.496 0 .901.405.901.902a.903.903 0 0 1-.901.901.905.905 0 0 1-.902-.901zm5.228 2.474a3.456 3.456 0 0 1-2.223.693 3.456 3.456 0 0 1-2.224-.693.243.243 0 1 1 .342-.342 2.94 2.94 0 0 0 1.873.566 2.962 2.962 0 0 0 1.881-.549.253.253 0 0 1 .356.005.253.253 0 0 1-.005.356v-.036zm-.16-1.542a.903.903 0 0 1-.902-.901c0-.497.405-.902.901-.902.497 0 .902.405.902.902a.9.9 0 0 1-.864.935h-.044l.006-.034z"/>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                  <path fill="#FFF" fill-rule="nonzero" d="M3 0h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3zm8.921 13.223c2.273-.07 3.148-1.539 3.148-1.539 0-3.26-1.482-5.903-1.482-5.903-1.48-1.093-2.89-1.063-2.89-1.063l-.144.162c1.749.527 2.561 1.286 2.561 1.286a8.48 8.48 0 0 0-3.096-.972 8.84 8.84 0 0 0-2.077.02c-.062 0-.114.01-.175.02-.36.031-1.235.163-2.335.639-.38.172-.607.293-.607.293s.854-.8 2.705-1.326l-.103-.122s-1.409-.03-2.89 1.063c0 0-1.481 2.643-1.481 5.903 0 0 .864 1.468 3.137 1.54 0 0 .38-.456.69-.841-1.307-.385-1.8-1.195-1.8-1.195s.102.071.287.172c.01.01.02.02.041.03.031.02.062.031.093.051.257.142.514.253.75.345.422.162.926.323 1.513.435a7.318 7.318 0 0 0 2.664.01 6.85 6.85 0 0 0 1.491-.435c.36-.132.761-.324 1.183-.598 0 0-.514.83-1.862 1.205.309.385.68.82.68.82zM7.138 8.495c-.586 0-1.049.506-1.049 1.124 0 .617.473 1.124 1.05 1.124.586 0 1.048-.507 1.048-1.124.01-.618-.462-1.124-1.049-1.124zm3.755 0c-.587 0-1.05.506-1.05 1.124 0 .617.474 1.124 1.05 1.124.586 0 1.049-.507 1.049-1.124 0-.618-.463-1.124-1.05-1.124z"/>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 copyright col-xs-12">
+          <span>© Cruzeo 2018</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Page scripts init -->
+  <script type="text/javascript" src="js/waypoint/lib/jquery.waypoints.js"></script>
+  <script>
+    function scrollSpy() {
+      var sections = ['roadmap','no-spy', 'app', 'team', ];
+      var current;
+      for (var i = 0; i < sections.length; i++) {
+        if ( $('#'+sections[i]).offset().top - 110 <= $(window).scrollTop() ) {
+          current = sections[i];
+        }
+      }
+      $("nav a[href='#"+current+"']").parent().addClass('active');
+      $("nav a").not("a[href='#"+current+"']").parent().removeClass('active');      
+    }
+    $( document ).ready(function() {
+      scrollSpy();
+      $('.my-paroller').paroller();
+      $(window).scroll( function() {
+        scrollSpy();
+      });
+    });
+  </script>
+  <script>
+    var x, i, j, selElmnt, a, b, c;
+    /*look for any elements with the class "custom-select":*/
+    x = document.getElementsByClassName("custom-select");
+    for (i = 0; i < x.length; i++) {
+      selElmnt = x[i].getElementsByTagName("select")[0];
+      /*for each element, create a new DIV that will act as the selected item:*/
+      a = document.createElement("DIV");
+      a.setAttribute("class", "select-selected");
+      a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+      x[i].appendChild(a);
+      /*for each element, create a new DIV that will contain the option list:*/
+      b = document.createElement("DIV");
+      b.setAttribute("class", "select-items select-hide");
+      for (j = 0; j < selElmnt.length; j++) {
+        /*for each option in the original select element,
+        create a new DIV that will act as an option item:*/
+        c = document.createElement("DIV");
+        c.innerHTML = selElmnt.options[j].innerHTML;
+        c.addEventListener("click", function(e) {
+            /*when an item is clicked, update the original select box,
+            and the selected item:*/
+            var y, i, k, s, h;
+            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+            h = this.parentNode.previousSibling;
+            for (i = 0; i < s.length; i++) {
+              if (s.options[i].innerHTML == this.innerHTML) {
+                s.selectedIndex = i;
+                h.innerHTML = this.innerHTML;
+                y = this.parentNode.getElementsByClassName("same-as-selected");
+                for (k = 0; k < y.length; k++) {
+                  y[k].removeAttribute("class");
+                }
+                this.setAttribute("class", "same-as-selected");
+                break;
+              }
+            }
+            h.click();
+        });
+        b.appendChild(c);
+      }
+      x[i].appendChild(b);
+      a.addEventListener("click", function(e) {
+          /*when the select box is clicked, close any other select boxes,
+          and open/close the current select box:*/
+          e.stopPropagation();
+          closeAllSelect(this);
+          this.nextSibling.classList.toggle("select-hide");
+          this.classList.toggle("select-arrow-active");
+        });
+      }
+      function closeAllSelect(elmnt) {
+        /*a function that will close all select boxes in the document,
+        except the current select box:*/
+        var x, y, i, arrNo = [];
+        x = document.getElementsByClassName("select-items");
+        y = document.getElementsByClassName("select-selected");
+        for (i = 0; i < y.length; i++) {
+          if (elmnt == y[i]) {
+            arrNo.push(i)
+          } else {
+            y[i].classList.remove("select-arrow-active");
+          }
+        }
+        for (i = 0; i < x.length; i++) {
+          if (arrNo.indexOf(i)) {
+            x[i].classList.add("select-hide");
+          }
+        }
+      }
+      /*if the user clicks anywhere outside the select box,
+      then close all select boxes:*/
+      document.addEventListener("click", closeAllSelect);
+    </script>
+</body>
+</html>

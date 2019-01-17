@@ -1,0 +1,651 @@
+
+/* ----------------- container1 -------------------- */
+
+.container_1{
+    width: 541px;
+    height: 357px;
+    position: relative;
+    margin-left: -105px;
+    display: none;
+}
+.container_1 .fraim1-1{
+    visibility: hidden;
+    position: absolute;
+    width: 351px;
+    height: 214px;
+    top: 115px;
+    left: 181px;
+    background: url(img/fraim1-1.png);
+    -webkit-animation: fadeInDown .55s linear .5s forwards;
+    -moz-animation: fadeInDown .55s linear .5s forwards;
+    animation: fadeInDown .55s linear .5s forwards;
+}
+.container_1 .fraim1-2{
+    visibility: hidden;
+    position: absolute;
+    width: 365px;
+    height: 201px;
+    top: 131px;
+    left: 0;
+    background: url(img/fraim1-2.png);
+    -webkit-animation: fadeInDown .55s linear .5s forwards;
+    -moz-animation: fadeInDown .55s linear .5s forwards;
+    animation: fadeInDown .55s linear .5s forwards;
+}
+.container_1 .fraim1-3{
+    visibility: hidden;
+    position: absolute;
+    width: 370px;
+    height: 250px;
+    top: 76px;
+    left: 0;
+    background: url(img/fraim1-3.png);
+    -webkit-animation: fadeInDown .55s linear .5s forwards;
+    -moz-animation: fadeInDown .55s linear .5s forwards;
+    animation: fadeInDown .55s linear .5s forwards;
+}
+.container_1 .fraim1-4{
+    visibility: hidden;
+    position: absolute;
+    width: 165px;
+    height: 100px;
+    top: 88px;
+    left: 113px;
+    background: url(img/fraim1-4.png);
+    -webkit-animation: fadeIn .75s linear .85s forwards;
+    -moz-animation: fadeIn .75s linear .85s forwards;
+    animation: fadeIn .75s linear .85s forwards;
+}
+.container_1 .fraim1-5{
+    visibility: hidden;
+    position: absolute;
+    width: 165px;
+    height: 126px;
+    top: 179px;
+    left: 195px;
+    background: url(img/fraim1-5.png);
+    -webkit-animation: fadeIn .75s linear 1.55s forwards;
+    -moz-animation: fadeIn .75s linear 1.55s forwards;
+    animation: fadeIn .75s linear 1.55s forwards;
+}
+.container_1 .fraim1-6{
+    visibility: hidden;
+    position: absolute;
+    width: 58px;
+    height: 76px;
+    top: 62px;
+    left: 217px;
+    background: url(img/fraim1-6.png);
+    -webkit-animation: fadeInDown .35s linear 1s forwards;
+    -moz-animation: fadeInDown .35s linear 1s forwards;
+    animation: fadeInDown .35s linear 1s forwards;
+}
+.container_1 .fraim1-7{
+    visibility: hidden;
+    position: absolute;
+    width: 84px;
+    height: 145px;
+    top: 13px;
+    left: 146px;
+    background: url(img/fraim1-7.png);
+    -webkit-animation: fadeInDown .55s linear 1s forwards;
+    -moz-animation: fadeInDown .55s linear 1s forwards;
+    animation: fadeInDown .55s linear 1s forwards;
+}
+.container_1 .fraim1-8{
+    visibility: hidden;
+    position: absolute;
+    width: 59px;
+    height: 75px;
+    top: 72px;
+    left: 106px;
+    background: url(img/fraim1-8.png);
+    -webkit-animation: fadeInDown .35s linear 1s forwards;
+    -moz-animation: fadeInDown .35s linear 1s forwards;
+    animation: fadeInDown .35s linear 1s forwards;
+}
+.container_1 .fraim1-9{
+    visibility: hidden;
+    position: absolute;
+    width: 140px;
+    height: 85px;
+    top: 243px;
+    left: 366px;
+    background: url(img/fraim1-9.png);
+    -webkit-animation: fadeIn 1s linear .85s forwards;
+    -moz-animation: fadeIn 1s linear .85s forwards;
+    animation: fadeIn 1s linear .85s forwards;
+}
+.container_1 .fraim1-10{
+    visibility: hidden;
+    position: absolute;
+    width: 145px;
+    height: 85px;
+    top: 212px;
+    left: 357px;
+    background: url(img/freim1-10.png);
+    -webkit-animation: fadeInDown .55s linear 1s forwards;
+    -moz-animation: fadeInDown .55s linear 1s forwards;
+    animation: fadeInDown .55s linear 1s forwards;
+}
+.container_1 .fraim1-11{
+    visibility: hidden;
+    position: absolute;
+    width: 103px;
+    height: 59px;
+    top: 227px;
+    left: 377px;
+    background: url(img/fraim1-11.png);
+    -webkit-animation: fadeInDown .55s linear 1s forwards;
+    -moz-animation: fadeInDown .55s linear 1s forwards;
+    animation: fadeInDown .55s linear 1s forwards;
+}
+
+/* ----------------- container2 -------------------- */
+
+.container_2{
+    width: 541px;
+    height: 412px;
+    position: relative;
+    margin-left: -105px;
+    display: none;
+}
+.container_2 .fraim2-1{
+    visibility: hidden;
+    position: absolute;
+    width: 343px;
+    height: 209px;
+    top: 174px;
+    left: 195px;
+    background: url(img/fraim2-1.png);
+    -webkit-animation: fadeInDown .55s linear .75s forwards;
+    -moz-animation: fadeInDown .55s linear .75s forwards;
+    animation: fadeInDown .55s linear .75s forwards;
+}
+.container_2 .fraim2-2{
+    visibility: hidden;
+    position: absolute;
+    width: 358px;
+    height: 196px;
+    top: 192px;
+    left: 33px;
+    background: url(img/fraim2-2.png);
+    -webkit-animation: fadeIn .95s linear .75s forwards;
+    -moz-animation: fadeIn .95s linear .75s forwards;
+    animation: fadeIn .95s linear .75s forwards;
+}
+.container_2 .fraim2-3{
+    visibility: hidden;
+    position: absolute;
+    width: 360px;
+    height: 231px;
+    top: 153px;
+    left: 32px;
+    background: url(img/fraim2-3.png);
+    -webkit-animation: fadeInDown .55s linear .55s forwards;
+    -moz-animation: fadeInDown .55s linear .55s forwards;
+    animation: fadeInDown .55s linear .55s forwards;
+}
+.container_2 .fraim2-4{
+    visibility: hidden;
+    position: absolute;
+    width: 76px;
+    height: 103px;
+    top: 89px;
+    left: 9px;
+    background: url(img/fraim2-4.png);
+    -webkit-animation: fadeInDown .55s linear 1.3s forwards;
+    -moz-animation: fadeInDown .55s linear 1.3s forwards;
+    animation: fadeInDown .55s linear 1.3s forwards;
+}
+.container_2 .fraim2-5{
+    visibility: hidden;
+    position: absolute;
+    width: 77px;
+    height: 113px;
+    top: 97px;
+    left: 20px;
+    background: url(img/fraim2-5.png);
+    -webkit-animation: fadeInDown .55s linear 1.3s forwards;
+    -moz-animation: fadeInDown .55s linear 1.3s forwards;
+    animation: fadeInDown .55s linear 1.3s forwards;
+}
+.container_2 .fraim2-6{
+    visibility: hidden;
+    position: absolute;
+    width: 128px;
+    height: 187px;
+    top: 45px;
+    left: 140px;
+    background: url(img/fraim2-6.png);
+    -webkit-animation: fadeIn .55s linear 1.4s forwards;
+    -moz-animation: fadeIn .55s linear 1.4s forwards;
+    animation: fadeIn .55s linear 1.4s forwards;
+}
+.container_2 .fraim2-7{
+    visibility: hidden;
+    position: absolute;
+    width: 80px;
+    height: 102px;
+    top: 86px;
+    left: 164px;
+    background: url(img/fraim2-7.png);
+    -webkit-animation: fadeInDown .55s linear 1.3s forwards;
+    -moz-animation: fadeInDown .55s linear 1.3s forwards;
+    animation: fadeInDown .55s linear 1.3s forwards;
+}
+.container_2 .fraim2-8{
+    visibility: hidden;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 33px;
+    left: 414px;
+    background: url(img/fraim2-8.png);
+    -webkit-animation: fadeInUp .75s linear 1.85s forwards;
+    -moz-animation: fadeInUp .75s linear 1.85s forwards;
+    animation: fadeInUp .75s linear 1.85s forwards;
+}
+.container_2 .fraim2-9{
+    visibility: hidden;
+    position: absolute;
+    width: 141px;
+    height: 180px;
+    top: 49px;
+    left: 271px;
+    background: url(img/fraim2-9.png);
+    -webkit-animation: fadeInUp .75s linear 1.85s forwards;
+    -moz-animation: fadeInUp .75s linear 1.85s forwards;
+    animation: fadeInUp .75s linear 1.85s forwards;
+}
+
+/* ----------------- container3 -------------------- */
+
+.container_3{
+    position: relative;
+    width: 541px;
+    height: 448px;
+    margin-left: -105px;
+    display: none;
+}
+.container_3 .fraim3-1{
+    visibility: hidden;
+    position: absolute;
+    width: 276px;
+    height: 168px;
+    top: 278px;
+    left: 106px;
+    background: url(img/fraim3-1.png);
+    -webkit-animation: fadeInDownLight .8s linear .5s forwards;
+    -moz-animation: fadeInDownLight .8s linear .5s forwards;
+    animation: fadeInDownLight .8s linear .5s forwards;
+}
+.container_3 .fraim3-2{
+    visibility: hidden;
+    position: absolute;
+    width: 167px;
+    height: 107px;
+    top: 307px;
+    left: 161px;
+    background: url(img/fraim3-2.png);
+    -webkit-animation: fadeInDown .8s linear .5s forwards;
+    -moz-animation: fadeInDown .8s linear .5s forwards;
+    animation: fadeInDown .8s linear .5s forwards;
+}
+.container_3 .fraim3-3{
+    visibility: hidden;
+    position: absolute;
+    width: 160px;
+    height: 94px;
+    top: 293px;
+    left: 164px;
+    background: url(img/fraim3-3.png);
+    -webkit-animation: fadeInDown .8s linear .5s forwards;
+    -moz-animation: fadeInDown .8s linear .5s forwards;
+    animation: fadeInDown .8s linear .5s forwards;
+}
+.container_3 .fraim3-4{
+    visibility: hidden;
+    position: absolute;
+    width: 289px;
+    height: 102px;
+    top: 245px;
+    left: 101px;
+    background: url(img/fraim3-4.png);
+    -webkit-animation: fadeInDownLight .8s linear .5s forwards;
+    -moz-animation: fadeInDownLight .8s linear .5s forwards;
+    animation: fadeInDownLight .8s linear .5s forwards;
+}
+.container_3 .fraim3-5{
+    visibility: hidden;
+    position: absolute;
+    width: 314px;
+    height: 177px;
+    top: 92px;
+    left: 87px;
+    background: url(img/fraim3-5.png);
+    -webkit-animation: fadeInDownLight .8s linear .5s forwards;
+    -moz-animation: fadeInDownLight .8s linear .5s forwards;
+    animation: fadeInDownLight .8s linear .5s forwards;
+}
+.container_3 .fraim3-6{
+    visibility: hidden;
+    position: absolute;
+    width: 142px;
+    height: 199px;
+    top: 79px;
+    left: 185px;
+    background: url(img/fraim3-6.png);
+    -webkit-animation: fadeInUpLight .9s linear 1.1s forwards;
+    -moz-animation: fadeInUpLight .9s linear 1.1s forwards;
+    animation: fadeInUpLight .9s linear 1.1s forwards;
+}
+.container_3 .fraim3-7{
+    visibility: hidden;
+    position: absolute;
+    width: 362px;
+    height: 237px;
+    top: 62px;
+    left: 66px;
+    background: url(img/fraim3-7.png);
+    -webkit-animation: fadeInDownLight .8s linear 1.2s forwards;
+    -moz-animation: fadeInDownLight .8s linear 1.2s forwards;
+    animation: fadeInDownLight .8s linear 1.2s forwards;
+}
+.container_3 .fraim3-8{
+    visibility: hidden;
+    position: absolute;
+    width: 106px;
+    height: 84px;
+    top: 165px;
+    left: 184px;
+    background: url(img/fraim3-8.png);
+    -webkit-animation: fadeInDown .8s linear .5s forwards;
+    -moz-animation: fadeInDown .8s linear .5s forwards;
+    animation: fadeInDown .8s linear .5s forwards;
+}
+.container_3 .fraim3-9{
+    visibility: hidden;
+    position: absolute;
+    width: 82px;
+    height: 108px;
+    top: 102px;
+    left: 201px;
+    background: url(img/farim3-9.png);
+    -webkit-animation: fadeInDown .8s linear .5s forwards;
+    -moz-animation: fadeInDown .8s linear .5s forwards;
+    animation: fadeInDown .8s linear .5s forwards;
+}
+.container_3 .fraim3-10{
+    visibility: hidden;
+    position: absolute;
+    width: 386px;
+    height: 288px;
+    top: 5px;
+    left: 54px;
+    background: url(img/freim3-10.png);
+    -webkit-animation: fadeInUpLight .8s linear 2.1s forwards;
+    -moz-animation: fadeInUpLight .8s linear 2.1s forwards;
+    animation: fadeInUpLight .8s linear 2.1s forwards;
+}
+
+/* ----------------- container4 -------------------- */
+
+.container_4{
+    position: relative;
+    width: 541px;
+    height: 402px;
+    margin-left: -105px;
+    display: none;
+}
+.container_4 .fraim4-1{
+    visibility: hidden;
+    position: absolute;
+    width: 342px;
+    height: 197px;
+    top: 191px;
+    left: 194px;
+    background: url(img/fraim4-1.png);
+    -webkit-animation: fadeInDownLight .8s linear .5s forwards;
+    -moz-animation: fadeInDownLight .8s linear .5s forwards;
+    animation: fadeInDownLight .8s linear .5s forwards;
+}
+.container_4 .fraim4-2{
+    visibility: hidden;
+    position: absolute;
+    width: 374px;
+    height: 210px;
+    top: 201px;
+    left: 25px;
+    background: url(img/fraim4-2.png);
+    -webkit-animation: fadeIn .8s linear .5s forwards;
+    -moz-animation: fadeIn .8s linear .5s forwards;
+    animation: fadeIn .8s linear .5s forwards;
+}
+.container_4 .fraim4-3{
+    visibility: hidden;
+    position: absolute;
+    width: 381px;
+    height: 245px;
+    top: 145px;
+    left: 20px;
+    background: url(img/fraim4-3.png);
+    -webkit-animation: fadeInDown .8s linear .5s forwards;
+    -moz-animation: fadeInDown .8s linear .5s forwards;
+    animation: fadeInDown .8s linear .5s forwards;
+}
+.container_4 .fraim4-4{
+    visibility: hidden;
+    position: absolute;
+    width: 212px;
+    height: 138px;
+    top: 153px;
+    left: 93px;
+    background: url(img/fraim4-4.png);
+    -webkit-animation: fadeIn 1s linear 1.3s forwards;
+    -moz-animation: fadeIn 1s linear 1.3s forwards;
+    animation: fadeIn 1s linear 1.3s forwards;
+}
+.container_4 .fraim4-5{
+    visibility: hidden;
+    position: absolute;
+    width: 78px;
+    height: 200px;
+    top: 140px;
+    left: 193px;
+    background: url(img/fraim4-5.png);
+    -webkit-animation: fadeIn 1s linear 1.3s forwards;
+    -moz-animation: fadeIn 1s linear 1.3s forwards;
+    animation: fadeIn 1s linear 1.3s forwards;
+}
+.container_4 .fraim4-6{
+    visibility: hidden;
+    position: absolute;
+    width: 101px;
+    height: 179px;
+    top: 86px;
+    left: 318px;
+    background: url(img/fraim4-6.png);
+    -webkit-animation: fadeInUp .8s linear 1.3s forwards;
+    -moz-animation: fadeInUp .8s linear 1.3s forwards;
+    animation: fadeInUp .8s linear 1.3s forwards;
+}
+.container_4 .fraim4-7{
+    visibility: hidden;
+    position: absolute;
+    width: 68px;
+    height: 119px;
+    top: 65px;
+    left: 108px;
+    background: url(img/fraim4-7.png);
+    -webkit-animation: fadeInDown .8s linear 1.3s forwards;
+    -moz-animation: fadeInDown .8s linear 1.3s forwards;
+    animation: fadeInDown .8s linear 1.3s forwards;
+}
+.container_4 .fraim4-8{
+    visibility: hidden;
+    position: absolute;
+    width: 64px;
+    height: 86px;
+    top: 126px;
+    left: 338px;
+    background: url(img/fraim4-8.png);
+    -webkit-animation: fadeInDownLight .8s linear 1.3s forwards;
+    -moz-animation: fadeInDownLight .8s linear 1.3s forwards;
+    animation: fadeInDownLight .8s linear 1.3s forwards;
+}
+.container_4 .fraim4-9{
+    visibility: hidden;
+    position: absolute;
+    width: 67px;
+    height: 138px;
+    top: 244px;
+    left: 19px;
+    background: url(img/fraim4-9.png);
+    -webkit-animation: fadeInUp .8s linear 1.3s forwards;
+    -moz-animation: fadeInUp .8s linear 1.3s forwards;
+    animation: fadeInUp .8s linear 1.3s forwards;
+}
+.container_4 .fraim4-10{
+    visibility: hidden;
+    position: absolute;
+    width: 89px;
+    height: 130px;
+    top: 105px;
+    left: 6px;
+    background: url(img/fraim4-10.png);
+    -webkit-animation: fadeInUp .8s linear 1.3s forwards;
+    -moz-animation: fadeInUp .8s linear 1.3s forwards;
+    animation: fadeInUp .8s linear 1.3s forwards;
+}
+
+/* ----------------- container5 -------------------- */
+
+.container_5{
+    position: relative;
+    width: 541px;
+    height: 532px;
+    margin-left: -105px;
+    display: none;
+}
+.container_5 .fraim5-1{
+    visibility: hidden;
+    position: absolute;
+    width: 199px;
+    height: 377px;
+    top: 154px;
+    left: 172px;
+    background: url(img/fraim5-1.png);
+    -webkit-animation: fadeInUp .8s linear .5s forwards;
+    -moz-animation: fadeInUp .8s linear .5s forwards;
+    animation: fadeInUp .8s linear .5s forwards;
+}
+.container_5 .fraim5-2{
+    visibility: hidden;
+    position: absolute;
+    width: 235px;
+    height: 250px;
+    top: 266px;
+    left: 305px;
+    background: url(img/fraim5-2.png);
+    -webkit-animation: fadeInUp .8s linear .5s forwards;
+    -moz-animation: fadeInUp .8s linear .5s forwards;
+    animation: fadeInUp .8s linear .5s forwards;
+}
+.container_5 .fraim5-3{
+    visibility: hidden;
+    position: absolute;
+    width: 103px;
+    height: 76px;
+    top: 269px;
+    left: 353px;
+    background: url(img/fraim5-3.png);
+    -webkit-animation: fadeIn .8s linear .5s forwards;
+    -moz-animation: fadeIn .8s linear .5s forwards;
+    animation: fadeIn .8s linear .5s forwards;
+}
+.container_5 .fraim5-4{
+    visibility: hidden;
+    position: absolute;
+    width: 57px;
+    height: 73px;
+    top: 239px;
+    left: 387px;
+    background: url(img/fraim5-4.png);
+    -webkit-animation: fadeInDown .8s linear .5s forwards;
+    -moz-animation: fadeInDown .8s linear .5s forwards;
+    animation: fadeInDown .8s linear .5s forwards;
+}
+.container_5 .fraim5-5{
+    visibility: hidden;
+    position: absolute;
+    width: 64px;
+    height: 97px;
+    top: 232px;
+    left: 351px;
+    background: url(img/fraim5-5.png);
+    -webkit-animation: fadeInDownLight .8s linear .5s forwards;
+    -moz-animation: fadeInDownLight .8s linear .5s forwards;
+    animation: fadeInDownLight .8s linear .5s forwards;
+
+}
+.container_5 .fraim5-6{
+    visibility: hidden;
+    position: absolute;
+    width: 97px;
+    height: 109px;
+    top: 68px;
+    left: 40px;
+    background: url(img/fraim5-6.png);
+    -webkit-animation: fadeInDown .8s linear .5s forwards;
+    -moz-animation: fadeInDown .8s linear .5s forwards;
+    animation: fadeInDown .8s linear .5s forwards;
+}
+.container_5 .fraim5-7{
+    visibility: hidden;
+    position: absolute;
+    width: 96px;
+    height: 140px;
+    top: 76px;
+    left: 52px;
+    background: url(img/fraim5-7.png);
+    -webkit-animation: fadeInDownLight .8s linear .5s forwards;
+    -moz-animation: fadeInDownLight .8s linear .5s forwards;
+    animation: fadeInDownLight .8s linear .5s forwards;
+}
+.container_5 .fraim5-8{
+    visibility: hidden;
+    position: absolute;
+    width: 135px;
+    height: 241px;
+    top: 5px;
+    left: 204px;
+    background: url(img/fraim5-8.png);
+    -webkit-animation: fadeInDownLight .8s linear .5s forwards;
+    -moz-animation: fadeInDownLight .8s linear .5s forwards;
+    animation: fadeInDownLight .8s linear .5s forwards;
+}
+.container_5 .fraim5-9{
+    visibility: hidden;
+    position: absolute;
+    width: 151px;
+    height: 87px;
+    top: 118px;
+    left: 197px;
+    background: url(img/fraim5-9.png);
+    -webkit-animation: fadeInDownLight .8s linear .5s forwards;
+    -moz-animation: fadeInDownLight .8s linear .5s forwards;
+    animation: fadeInDownLight .8s linear .5s forwards;
+}
+.container_5 .fraim5-10{
+    visibility: hidden;
+    position: absolute;
+    width: 89px;
+    height: 105px;
+    top: 58px;
+    left: 231px;
+    background: url(img/fraim5-10.png);
+    -webkit-animation: fadeInDown .8s linear .5s forwards;
+    -moz-animation: fadeInDown .8s linear .5s forwards;
+    animation: fadeInDown .8s linear .5s forwards;
+}
